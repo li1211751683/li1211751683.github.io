@@ -76,11 +76,15 @@
 }
 
 body {
-    background-color: #eaeaea;
+    background: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)) 0% 0% / cover, url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604251183796&di=867d20ce6c336a068595f502b7f9521f&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2Fd1160924ab18972b48067763e4cd7b899e510a5e.jpg"), url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg") 0px 0px;
+    background-attachment: fixed;
+    margin: 0;
+    color: #7F95D1;
+    /* background-color: #eaeaea;
     margin: 0;
     color: #34495e;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto; */
 }
 
 h1 {
